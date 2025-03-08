@@ -29,7 +29,7 @@ const NewsCard = ({ news }) => {
       </div>
       <h2 className="font-bold text-lg mb-2">{news.title}</h2>
       <img
-        src={news.image_url}
+        src={news.image_url} 
         alt={news.title}
         className="rounded-lg w-full h-48 object-cover mb-3"
       />
