@@ -4,6 +4,8 @@ import ErrorPage from "../components/ErrorPage/ErrorPage";
 import HomeLayout from "../layouts/HomeLayout";
 import CategoryNews from "../pages/Home/CategoryNews";
 import AuthLayout from "../layouts/AuthLayout";
+import Login from "../pages/Home/Login";
+import Register from "../pages/Home/Register";
 
 
 
@@ -37,11 +39,11 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/auth/login",
-        element: <h1>Hello! I am login</h1>,
+        element: <Login></Login>,
       },
       {
         path: "/auth/register",
-        element: <h1>Hello! I am register</h1>,
+        element: <Register></Register>,
       },
      
     ]
